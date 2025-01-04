@@ -4,4 +4,15 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fundo_principal">#0A5EA3</color>
     <color name="fundo_teste">#1C4994</color>
+
+
+
+
+
+
+
+
+<!--Cores tela cadastro paciente   -->
+    <color name="ColorTitleCadastroLoginPaciente">#3C4A53</color>
+    <color name="ColorBtn">#3C4A53</color>
 </resources>

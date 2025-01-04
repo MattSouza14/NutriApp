@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CadastroPaciente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C4994"
+    android:orientation="vertical"
+
+    tools:context=".CadastroPaciente">
+
+
+    <TextView
+        android:id="@+id/CadastroPacienteTitle"
+        android:layout_width="220dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+
+        android:text="@string/textoCadastro"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/ColorTitleCadastroLoginPaciente"
+        />
+
+    <FrameLayout
+        android:id="@+id/InputsCadastroPaciente"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+
+       >
+        <EditText
+            android:autofillHints="name"
+            android:id="@+id/InputNomePaciente"
+            android:inputType="text"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/nomeInputPaciente"
+            android:background="#FFFFFF"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="top|center_horizontal"
+            android:textColorHint="@color/black"
+
+             />
+        <EditText
+            android:autofillHints="emailAddress"
+            android:id="@+id/InputEmailPaciente"
+            android:inputType="textEmailAddress"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/emailInputPaciente"
+            android:background="#FFFFFF"
+            android:layout_marginTop="95dp"
+            android:layout_gravity="top|center_horizontal"
+            android:textColorHint="@color/black"
+
+            />
+        <EditText
+            android:autofillHints="password"
+            android:id="@+id/InputSenhaPaciente"
+            android:inputType="textPassword"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/senhaInputPaciente"
+            android:background="#FFFFFF"
+            android:layout_marginTop="165dp"
+            android:layout_gravity="top|center_horizontal"
+            android:textColorHint="@color/black"
+
+            />
+
+        <EditText
+            android:id="@+id/InputCpfPaciente"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="235dp"
+            android:autofillHints=""
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/cpfInputPaciente"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+
+            />
+
+        <EditText
+            android:autofillHints=""
+            android:id="@+id/InputDataNascPaciente"
+            android:inputType="date"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/dataNascInputPaciente"
+            android:background="#FFFFFF"
+            android:layout_marginTop="305dp"
+            android:layout_gravity="top|center_horizontal"
+            android:textColorHint="@color/black"
+
+            />
+        <EditText
+            android:autofillHints="phone"
+            android:id="@+id/InputNumCelularPaciente"
+            android:inputType="date"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/numeroCelularInputPaciente"
+            android:background="#FFFFFF"
+            android:layout_marginTop="375dp"
+            android:layout_gravity="top|center_horizontal"
+            android:textColorHint="@color/black"
+
+            />
+        <EditText
+            android:autofillHints=""
+            android:id="@+id/InputGeneroPaciente"
+            android:inputType="date"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/generoInputPaciente"
+            android:background="#FFFFFF"
+            android:layout_marginTop="445dp"
+            android:layout_gravity="top|center_horizontal"
+            android:textColorHint="@color/black"
+
+            />
+
+    </FrameLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:layout_marginTop="20dp">
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btnCriarConta"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:backgroundTint="@color/ColorBtn"
+
+        />
+
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

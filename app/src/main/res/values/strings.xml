@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">NutriApp</string>
+
+
+
+
+
+
+
+
+
+    <!-- Strings tela cadastro paciente-->
+    <string name="textoCadastro">CADASTRO</string>
+    <string name="nomeInputPaciente">Nome completo</string>
+    <string name="emailInputPaciente">Email</string>
+    <string name="senhaInputPaciente">Senha</string>
+    <string name="cpfInputPaciente">CPF</string>
+    <string name="dataNascInputPaciente">DD/MM/YYYY</string>
+    <string name="numeroCelularInputPaciente">Celular</string>
+    <string name="generoInputPaciente">Gênero</string>
+    <string name="btnCriarConta">Criar</string>
+
 </resources>

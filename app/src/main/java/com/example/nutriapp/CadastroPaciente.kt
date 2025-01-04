@@ -6,17 +6,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Login : AppCompatActivity() {
+class CadastroPaciente : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-<<<<<<< Updated upstream:app/src/main/java/com/example/nutriapp/Login.kt
-        setContentView(R.layout.activity_login)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-=======
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_cadastro_paciente)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.CadastroPaciente)) { v, insets ->
->>>>>>> Stashed changes:app/src/main/java/com/example/nutriapp/MainActivity.kt
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
