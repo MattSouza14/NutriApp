@@ -2,9 +2,9 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="@color/white" /> <!-- cor do sólido -->
+<!--            <solid android:color="@color/fundo_teste"/> &lt;!&ndash; cor do sólido &ndash;&gt;-->
             <corners android:radius="15dp"/> <!-- valor do arredondamento das bordas -->
-            <stroke android:color="#ffffff" android:width="2dp"/> <!-- cor da borda e tamanho dela -->
+            <stroke android:color="@color/fundo_principal" android:width="2dp"/> <!-- cor da borda e tamanho dela -->
             <padding android:bottom="8dp" android:left="8dp" android:right="8dp" android:top="8dp" />
         </shape>
     </item>

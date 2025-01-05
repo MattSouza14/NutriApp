@@ -2,13 +2,6 @@
     <string name="app_name">NutriApp</string>
 
 
-
-
-
-
-
-
-
     <!-- Strings tela cadastro paciente-->
     <string name="textoCadastro">CADASTRO</string>
     <string name="nomeInputPaciente">Nome completo</string>

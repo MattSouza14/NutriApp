@@ -3,7 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fundo_principal">#0A5EA3</color>
-    <color name="fundo_teste">#1C4994</color>
+    <color name="fundo_teste">#1C4994</color>4
+    <color name="azul_petroleo">#084d6e</color>
+    <color name="Bege">#F5f5dc</color>
+    <color name="fundo_homepage_paciente">#DFDBDE</color>
 
 
 

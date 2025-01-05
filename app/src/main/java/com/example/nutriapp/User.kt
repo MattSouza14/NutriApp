@@ -15,7 +15,7 @@ class User : AppCompatActivity() {
         val paciente = findViewById(R.id.paciente) as Button
 
         paciente.setOnClickListener{
-         val trocaTela = Intent(this, Paciente::class.java)
+         val trocaTela = Intent(this, Login::class.java)
          startActivity(trocaTela)
         }
 

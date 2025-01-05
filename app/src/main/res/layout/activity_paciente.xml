@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Paciente"
-    android:background="@color/fundo_principal">
+    android:background="@color/azul_petroleo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,14 +15,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/azul_petroleo">
         <ImageView
 
-            android:layout_width="370dp"
-            android:layout_height="210dp"
+            android:layout_width="360dp"
+            android:layout_height="170dp"
             android:src="@drawable/logo"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="-20dp"/>
+            android:layout_marginTop="20dp"/>
         <Button
             android:id="@+id/Login"
             android:layout_width="260dp"
@@ -37,7 +38,7 @@
             android:layout_width="260dp"
             android:layout_height="90dp"
             android:layout_marginStart="60dp"
-            android:layout_marginBottom="-0dp"
+            android:layout_marginBottom="30dp"
             android:layout_marginTop="50dp"
             android:backgroundTint="@color/black"
             android:textSize="30sp"

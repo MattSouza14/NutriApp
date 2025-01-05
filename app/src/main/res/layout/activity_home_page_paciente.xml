@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage_Paciente"
+    android:background="@color/azul_petroleo">
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="400dp"
+        android:layout_height="140dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/fundo_teste"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_rounded"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/simbolo_de_logout" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/ALLASKA"
+            android:text="Olá Marcos"
+            android:textColor="@color/Bege"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="80dp"
+            android:text="Como você está hoje?"
+            android:fontFamily="@font/ALLASKA"
+            android:textColor="@color/Bege"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/fundo_homepage_paciente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout1"
+        app:layout_constraintVertical_bias="0.347">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:text="Consultas Proximas:"
+            android:fontFamily="@font/ALLASKA"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="345dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="-15dp"
+            android:layout_marginBottom="-18dp"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:id="@+id/squareView"
+                android:layout_width="344dp"
+                android:layout_height="204dp"
+                android:background="@drawable/border_rounded"
+                android:backgroundTint="@color/azul_petroleo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Dr. Matue"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.066"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/squareView" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Clinico AntiDorgas"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border_rounded"
+                android:backgroundTint="@color/white"
+                android:text="Terça-Feira       15:00"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:background="@drawable/border_rounded"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/usuario"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.864"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.133" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toTopOf="@+id/squareView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Categorias:"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/border_rounded"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/border_rounded"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/border_rounded"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/stethoscope" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="290dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/border_rounded"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/stethoscope" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/squareView2"
+            android:layout_width="340dp"
+            android:layout_height="160dp"
+            android:background="@drawable/border_rounded"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.934" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anúncios em geral"
+            app:layout_constraintBottom_toBottomOf="@+id/squareView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/squareView2"
+            app:layout_constraintTop_toTopOf="@+id/squareView2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
