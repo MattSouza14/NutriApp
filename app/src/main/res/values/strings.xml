@@ -13,4 +13,8 @@
     <string name="generoInputPaciente">Gênero</string>
     <string name="btnCriarConta">Criar</string>
 
+
+    <!-- Fragments_HomePage-->
+    <string name="hello_blank_fragment">Sucesso</string>
+
 </resources>

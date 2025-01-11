@@ -63,13 +63,12 @@
                 app:layout_constraintTop_toBottomOf="@+id/login" />
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/entrar"
                 android:layout_width="175dp"
                 android:layout_height="66dp"
                 android:layout_marginTop="78dp"
                 android:layout_marginStart="84dp"
                 android:backgroundTint="@color/white"
-                android:onClick="checar"
                 android:text="Entrar"
                 android:textColor="@color/azul_petroleo"
                 android:textSize="16sp"
