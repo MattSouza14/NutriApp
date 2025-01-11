@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomePage_Paciente"
-    android:background="@color/azul_petroleo">
+    android:background="@color/white">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/BarraInferior"
@@ -29,6 +29,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout = "@layout/fragment_home"/>
+        tools:layout = "@layout/fragment_medicos"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

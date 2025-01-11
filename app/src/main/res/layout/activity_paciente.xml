@@ -33,6 +33,7 @@
             android:layout_marginTop="50dp"
             android:backgroundTint="@color/black"
             android:textSize="30sp"
+            android:textColor="@color/white"
             android:text="Login"/>
         <Button
             android:layout_width="260dp"
@@ -42,6 +43,7 @@
             android:layout_marginTop="50dp"
             android:backgroundTint="@color/black"
             android:textSize="30sp"
+            android:textColor="@color/white"
             android:text="Cadastro"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

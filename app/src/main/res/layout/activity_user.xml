@@ -37,7 +37,8 @@
             android:layout_marginBottom="-0dp"
             android:layout_marginTop="-350dp"
             android:backgroundTint="@color/black"
-            android:text="Nutricionista"/>
+            android:text="Nutricionista"
+            android:textColor="@color/white"/>
         <Button
             android:id="@+id/paciente"
             android:layout_width="260dp"
@@ -46,7 +47,8 @@
             android:layout_marginBottom="-0dp"
             android:layout_marginTop="50dp"
             android:backgroundTint="@color/black"
-            android:text="Paciente" />
+            android:text="Paciente"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
